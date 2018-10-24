@@ -26,3 +26,6 @@ resources which can be accessed via logs and must be deleted via delete:
 
 After bringing this sample up, you should notice the log from the correlator
 container telling you "Hello world!".
+
+
+[![Try in Play With Docker](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/SoftwareAG/apama-streaming-analytics-docker-samples/play-with-docker-test/applications/Simple/docker-compose.yml)
