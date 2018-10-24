@@ -10,6 +10,7 @@ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF 
 either express or implied. 
 See the License for the specific language governing permissions and limitations under the License.
 
+[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/SoftwareAG/apama-streaming-analytics-docker-samples/play-with-docker-test/applications/MemoryStore/docker-compose.yml)
 
 MemoryStore
 ===========
