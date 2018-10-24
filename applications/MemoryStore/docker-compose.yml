@@ -13,7 +13,7 @@ services:
     # Runs the Apama correlator with the MemoryStore-based application
     correlator:
         # Build the image for this container from the Dockerfile in the current directory, which puts EPL files on top of a base Apama image.
-        build: .
+        build: https://github.com/SoftwareAG/apama-streaming-analytics-docker-samples/tree/play-with-docker-test/applications/MemoryStore
         # Take the /apama_work/MemoryStoreData/ volume, and make it our working directory so the correlator's MemoryStore plugin stores its data here
         volumes:
             - data:/apama_work/MemoryStoreData/
