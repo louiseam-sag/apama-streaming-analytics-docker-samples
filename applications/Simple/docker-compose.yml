@@ -14,4 +14,4 @@ services:
     application:
         # Build the image for this container from the Dockerfile in the current directory, which puts EPL files on top of a base Apama image.
         # Configures the correlator to start from a yaml config file which injects the EPL files
-        build: .
+        build: https://github.com/SoftwareAG/apama-streaming-analytics-docker-samples.git
